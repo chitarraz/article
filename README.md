@@ -1,11 +1,10 @@
-# article
-Mediacorp Interview Assignment
+# Mediacorp Interview Assignment
 
-# Run the App
-npm install
+## Run the App
+npm install<br/>
 npm run dev
 
-# Things to Improve
+## Things to Improve
 - smoother transitions when changing header during scroll
 - general css colors
 - social buttons to be added
