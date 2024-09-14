@@ -1,0 +1,129 @@
+.header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0 15px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.appbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 2.5rem;
+  margin-right: 15px;
+}
+
+.menu {
+  padding: 13px 15px 15px 0;
+  font-weight: 700;
+  color: #000;
+  &:hover {
+    color: #d22d28;
+  }
+}
+
+.more-icon {
+  color: #d22d28;
+  font-size: 12px;
+  padding: 0 6px;
+}
+
+.dropdown {
+  &:hover span {
+    color: #d22d28;
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  padding: 13px 15px 15px;
+  &:not(:first-child) {
+    border-top: 1px solid #eaeaea;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .more-icon {
+  transform: rotate(180deg);
+}
+
+.subMenu {
+  padding: 12px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  & :first-child {
+    margin-right: 8px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrolldown {
+  display: flex;
+  align-items: center;
+}
+
+.title-container {
+  max-width: 697px;
+}
+
+.news {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #b50000;
+  margin: 0;
+}
+
+.news-title {
+  font-size: 1rem;
+  line-height: 1.1875;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,30 @@
+.container {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.news {
+  text-transform: uppercase;
+  color: #d22d28;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-left: 5px;
+}
+
+.explore {
+  text-transform: uppercase;
+  color: #d22d28;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
