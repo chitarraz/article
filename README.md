@@ -9,3 +9,4 @@ npm run dev
 - general css colors
 - social buttons to be added
 - read also is hardcoded (to be read from api)
+- responsive ui
